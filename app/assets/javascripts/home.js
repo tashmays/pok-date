@@ -7,7 +7,6 @@ function setPokemonData (data) {
   $('.pokemon').attr('src', data.sprites.front_default);
   $('.pokename').text(data.name);
   
-  // Make sure to implement some sort of caching!!!!
 }
 
 function loadPokemonData () {
@@ -17,7 +16,6 @@ function loadPokemonData () {
   $.ajax({
     url: 'http://www.pokeapi.co/api/v2/pokemon/' + pokemonId,
     success: setPokemonData,
-    //add failure function
   });
 }
 
