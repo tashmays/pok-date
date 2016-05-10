@@ -1,0 +1,13 @@
+.pokemon {
+	height: 200px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.container {
+	text-align: center;
+}
+
+.flame {
+	height: 23px;
+}
